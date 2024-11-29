@@ -1,5 +1,5 @@
 body {
-    background-color: #629584; /* Background color for the page */
+    background-color: #629584; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,22 +10,22 @@ body {
 }
 
 .sign-in-container {
-    background-color: #D9D9D9; /* Set the background color of the div */
+    background-color: #D9D9D9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 400px; /* You can adjust the width as needed */
-    text-align: center; /* Center text inside the container */
+    width: 400px; 
+    text-align: center; 
 }
 
 .sign-in-container img {
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto; 
 }
 
 h5 {
-    color: #333; /* Text color for the heading */
+    color: #333; 
     margin-top: 10px;
 }
 
