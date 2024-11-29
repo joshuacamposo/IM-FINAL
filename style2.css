@@ -1,0 +1,64 @@
+body {
+    background-color: #629584; /* Background color for the page */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.sign-in-container {
+    background-color: #D9D9D9; /* Set the background color of the div */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px; /* You can adjust the width as needed */
+    text-align: center; /* Center text inside the container */
+}
+
+.sign-in-container img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+h5 {
+    color: #333; /* Text color for the heading */
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #629584;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #507d66;
+}
+.social img {
+  margin-bottom: -10px;
+}
