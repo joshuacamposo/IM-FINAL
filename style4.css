@@ -1,47 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #629584;
-    display: inline;  
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
+    background-color: #629584; 
+    
 }
 
+.container {
+    width: 100%;
+    width: 400px;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Julius Sans One', sans-serif;
+}
 
-.posts-container {
-    display: inline;
-    flex-direction: column;
-    gap: 20px; 
-    max-width: 800px; 
-    width: 100%; 
+.header {
+    color: white;
     text-align: center;
-}
-
-
-.user-post {
-    background-color: #D9D9D9;
-    padding: 20px;
-    border-radius: 8px; 
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; 
-}
-
-
-.username {
+    padding: 10px 0;
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
+.post {
+    background-color: #e3e3e3;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
 
-.post-content {
+.post .username {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post .content {
+    margin-bottom: 15px;
+}
+
+.post .actions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.actions span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.actions span i {
     font-size: 16px;
-    color: #555;
-    margin-top: 10px;
+}
+
+.navbar {
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    background-color: #629782;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    
+}
+
+.navbar i {
+    color: white;
+    font-size: 24px;
 }

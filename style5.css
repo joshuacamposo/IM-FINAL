@@ -1,0 +1,36 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #578676;
+        }
+
+        .profile-card {
+            background-color: #629782;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .edit-profile-btn {
+            background-color: white;
+            color: #629782;
+            border: none;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .info-card {
+            background-color: #e3e3e3;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .navbar {
+            background-color: #629782;
+        }
+
+        .navbar i {
+            font-size: 24px;
+            color: white;
+        }
